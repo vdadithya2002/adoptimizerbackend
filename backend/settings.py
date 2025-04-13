@@ -126,8 +126,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Add allowed origins for CORS
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Example: React frontend running on port 3000
+    "https://ad-optimization.onrender.com",  # Deployed frontend URL
 ]
-
 
 CORS_ALLOW_ALL_ORIGINS = True

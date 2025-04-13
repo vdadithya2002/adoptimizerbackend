@@ -129,4 +129,4 @@ CORS_ALLOWED_ORIGINS = [
     "https://ad-optimization.onrender.com",  # Deployed frontend URL
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW__ORIGINS = True

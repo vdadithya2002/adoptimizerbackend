@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-)l#y%n73vevnc=^50cr4hysm&cd(l^#2uj)yklaejyq-3=*x5u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ad-optimization.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['adoptimizerbackend.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -123,7 +123,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Add allowed origins for CORS
 CORS_ALLOWED_ORIGINS = [
-    "https://ad-optimization.onrender.com",  # Deployed frontend URL
+    "https://adoptimizerfrontend.onrender.com",  # Frontend URL
 ]
 
 CORS_ALLOW_ORIGINS = True

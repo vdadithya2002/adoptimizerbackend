@@ -9,5 +9,4 @@ def api_home(request):
 urlpatterns = [
     path('admin/', admin.site.urls),  # Admin panel
     path('api/', include('ad_optimizer.urls')),  # API endpoints
-    re_path(r'^.*$', TemplateView.as_view(template_name='build/index.html')),  # React app
 ]

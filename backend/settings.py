@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-)l#y%n73vevnc=^50cr4hysm&cd(l^#2uj)yklaejyq-3=*x5u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['adoptimizerbackend.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['adoptimizer-backend.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition

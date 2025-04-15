@@ -125,5 +125,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "https://adoptimizer-frontend.onrender.com",  # Frontend URL
 ]
-
-CORS_ALLOW_ORIGINS = True
